@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "skills_sections",
+  "info": {
+    "singularName": "skills-section",
+    "pluralName": "skills-sections",
+    "displayName": "Skills Section",
+    "description": "Skills and technologies with proficiency levels"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "maxLength": 100,
+      "required": true
+    },
+    "category": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "frontend",
+        "backend",
+        "database",
+        "devops",
+        "other"
+      ]
+    },
+    "proficiency": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "beginner",
+        "intermediate",
+        "advanced",
+        "expert"
+      ]
+    }
+  }
+}

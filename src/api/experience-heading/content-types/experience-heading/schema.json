@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "experience_headings",
+  "info": {
+    "singularName": "experience-heading",
+    "pluralName": "experience-headings",
+    "displayName": "Experience_Heading"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "text",
+      "default": "Your experience Header"
+    }
+  }
+}

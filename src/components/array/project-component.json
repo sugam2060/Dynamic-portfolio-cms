@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_array_project_components",
+  "info": {
+    "displayName": "project_component"
+  },
+  "options": {},
+  "attributes": {
+    "technology": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

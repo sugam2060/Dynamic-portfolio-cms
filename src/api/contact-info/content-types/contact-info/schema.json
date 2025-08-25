@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_infos",
+  "info": {
+    "singularName": "contact-info",
+    "pluralName": "contact-infos",
+    "displayName": "ContactInfo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "biginteger",
+      "required": true
+    },
+    "address": {
+      "type": "string"
+    },
+    "timezone": {
+      "type": "string"
+    },
+    "availability": {
+      "type": "string"
+    },
+    "contactFormEnabled": {
+      "type": "boolean"
+    },
+    "contactFormMessage": {
+      "type": "text"
+    },
+    "officeHours": {
+      "type": "string"
+    },
+    "responseTime": {
+      "type": "string"
+    },
+    "socialLinks": {
+      "type": "component",
+      "component": "array.social-links",
+      "repeatable": true
+    },
+    "profe": {
+      "type": "component",
+      "component": "array.professional-links",
+      "repeatable": true
+    }
+  }
+}

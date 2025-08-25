@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "experience_sections",
+  "info": {
+    "singularName": "experience-section",
+    "pluralName": "experience-sections",
+    "displayName": "experience_section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "description": {
+      "type": "string"
+    },
+    "technologies": {
+      "type": "component",
+      "component": "array.experience-section-technology",
+      "repeatable": true
+    },
+    "achievement": {
+      "type": "component",
+      "component": "array.experience-section-achievements",
+      "repeatable": true
+    }
+  }
+}

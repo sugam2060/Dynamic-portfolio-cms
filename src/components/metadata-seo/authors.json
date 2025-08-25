@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_metadata_seo_authors",
+  "info": {
+    "displayName": "authors"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

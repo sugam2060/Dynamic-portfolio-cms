@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "skill_headings",
+  "info": {
+    "singularName": "skill-heading",
+    "pluralName": "skill-headings",
+    "displayName": "skill_heading"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "text",
+      "default": "Your Skills Heading"
+    }
+  }
+}

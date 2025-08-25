@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "blog_headings",
+  "info": {
+    "singularName": "blog-heading",
+    "pluralName": "blog-headings",
+    "displayName": "blog_heading"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "text",
+      "default": "Your blog heading"
+    }
+  }
+}

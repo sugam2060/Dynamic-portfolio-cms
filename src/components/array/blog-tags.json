@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_array_blog_tags",
+  "info": {
+    "displayName": "blog_tags"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

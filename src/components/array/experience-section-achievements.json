@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_array_experience_section_achievements",
+  "info": {
+    "displayName": "experience_section_achievements"
+  },
+  "options": {},
+  "attributes": {
+    "achievement": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_array_experience_section_technologies",
+  "info": {
+    "displayName": "experience_section_technology"
+  },
+  "options": {},
+  "attributes": {
+    "technology": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

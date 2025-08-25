@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "project_headings",
+  "info": {
+    "singularName": "project-heading",
+    "pluralName": "project-headings",
+    "displayName": "Project_heading"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "text",
+      "default": "Your Project Heading"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_metadata_seo_key_words",
+  "info": {
+    "displayName": "key_words"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
